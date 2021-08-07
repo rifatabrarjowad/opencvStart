@@ -1,3 +1,7 @@
 import cv2
-import numpy
-print('Hello')
+
+img = cv2.imread("img/photo.jpg")
+
+cv2.imshow("photo",img)
+
+cv2.waitKey(0)
